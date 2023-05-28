@@ -1,0 +1,136 @@
+:root {
+  --main-text-color: #292f36;
+  --second-text-color: #4d5053;
+  --third-text-color: #cda274;
+  --fourth-text-color: #ffffff;
+  --main-bg: #f5f5f5;
+  --second-bg: #f4f0ec;
+  --third-bg: #292f36;
+}
+
+body {
+  font-family: 'Jost', sans-serif;
+  margin: 0 auto;
+  color: var(--main-text-color);
+  background-color: var(--main-bg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 1440px;
+  background-color: var(--main-bg);
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 0 120px;
+}
+
+/**======== HEADER ========*/
+
+.header-container {
+  padding: 26px 0 18px;
+}
+
+.logo {
+  font-family: 'DM Serif Display', sans-serif;
+  color: var(--main-text-color);
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+
+.logo-text {
+  margin-left: 12px;
+}
+
+.header-menu {
+  display: flex;
+  gap: 40px;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+}
+
+.header-menu-link {
+  color: var(--main-text-color);
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: var(--third-text-color);
+}
+
+.header-menu-item {
+  margin: 12px 0 20px;
+}
+
+/**======== HERO ========*/
+
+.hero-section {
+  padding: 188px 725px 248px 120px;
+  background-image: url(./hero-bg.jpg);
+  background-repeat: no-repeat;
+  border-radius: 0 0 0 300px;
+}
+
+.hero-container {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero-title {
+  max-width: 595px;
+  font-family: 'DM Serif Display';
+  font-size: 80px;
+  line-height: 1.2;
+  letter-spacing: 0.22px;
+  color: var(--main-text-color);
+  margin-bottom: 19px;
+}
+
+.hero-text {
+  margin-bottom: 35px;
+  max-width: 577px;
+  font-size: 22px;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+}
+
+.hero-btn {
+  padding: 21px 65px 21px 32px;
+  color: var(--fourth-text-color);
+  background: var(--third-bg);
+  border: 2px solid var(--third-bg);
+  border-radius: 18px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.72px;
+}
