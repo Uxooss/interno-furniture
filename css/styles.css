@@ -374,7 +374,7 @@ a {
 }
 
 .projects-cards {
-  width: calc((100% - 16) / 2);
+  width: calc((100% - 20px) / 2);
 }
 
 .projects-card-text {
@@ -411,19 +411,13 @@ a {
   padding: 140px 120px;
 }
 
-.exp-container {
-  justify-content: center;
-}
-
 .exp-cards {
   display: flex;
   gap: 16px;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .exp-cards-item {
-  width: 288px;
+  width: calc((100% - 48px) / 4);
   border-right: 1px solid var(--third-text-color);
   padding: 12px 40px;
   text-align: center;
