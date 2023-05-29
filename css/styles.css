@@ -6,6 +6,7 @@
   --main-bg: #f5f5f5;
   --second-bg: #f4f0ec;
   --third-bg: #292f36;
+  --cards-bg: #ffffff;
 }
 
 body {
@@ -279,7 +280,7 @@ a {
 
 .reviews-card {
   width: calc((100% -32px) / 3);
-  background-color: #ffffff;
+  background-color: var(--cards-bg);
   border-radius: 30px;
   padding: 50px 35px 45px;
 }
