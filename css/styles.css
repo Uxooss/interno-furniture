@@ -427,6 +427,10 @@ a {
 
 /** ======== EXPERIENCE ======== */
 
+.exp-section-title {
+  display: none;
+}
+
 .exp-section {
   background-color: var(--second-bg);
   padding: 140px 120px;
