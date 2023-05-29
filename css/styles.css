@@ -508,3 +508,45 @@ a {
   letter-spacing: 0.22px;
   color: var(--second-text-color);
 }
+
+/** ======== CONSULT ======== */
+
+.consult-section {
+  padding-bottom: 80px;
+}
+
+.consult-container {
+  background: var(--third-bg);
+  border-radius: 70px;
+  padding: 100px 0 95px;
+  text-align: center;
+}
+
+.consult-title {
+  font-family: 'DM Serif Display';
+  font-size: 50px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.22px;
+  color: #ffffff;
+  margin-bottom: 9px;
+}
+
+.consult-text {
+  font-size: 22px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.22px;
+  color: #ffffff;
+  margin-bottom: 31px;
+}
+
+.consult-order-btn {
+  cursor: pointer;
+  font-family: 'Jost', sans-serif;
+  background: var(--third-text-color);
+  border: 2px solid var(--third-text-color);
+  box-shadow: 1px 0px 18px rgba(0, 0, 0, 0.2);
+  border-radius: 18px;
+  padding: 22px 34px;
+}
