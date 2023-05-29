@@ -55,6 +55,8 @@ a {
 /**======== HEADER ========*/
 
 .header-container {
+  display: flex;
+  justify-content: space-between;
   padding: 26px 0 18px;
 }
 
@@ -123,6 +125,7 @@ a {
 }
 
 .hero-btn {
+  cursor: pointer;
   padding: 21px 65px 21px 32px;
   color: var(--fourth-text-color);
   background: var(--third-bg);
@@ -132,6 +135,12 @@ a {
   font-size: 18px;
   line-height: 1.5;
   letter-spacing: 0.72px;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--third-text-color);
+  border: 2px solid var(--third-text-color);
 }
 
 /**======== SERVICES ========*/
@@ -181,6 +190,7 @@ a {
 .services-link:hover,
 .services-link:focus {
   color: var(--third-text-color);
+  text-decoration: underline;
 }
 
 /**======== CHALLENGE DESIGN ========*/
@@ -236,6 +246,7 @@ a {
 }
 
 .estimate-order-btn {
+  cursor: pointer;
   color: var(--fourth-text-color);
   background-color: var(--third-bg);
   border: 2px solid var(--third-bg);
@@ -244,6 +255,12 @@ a {
   line-height: 1.5;
   letter-spacing: 0.72px;
   padding: 22px 67px 22px 34px;
+}
+
+.estimate-order-btn:hover,
+.estimate-order-btn:focus {
+  color: var(--third-text-color);
+  border: 2px solid var(--third-text-color);
 }
 
 /**======== REVIEWS ========*/
@@ -549,4 +566,154 @@ a {
   box-shadow: 1px 0px 18px rgba(0, 0, 0, 0.2);
   border-radius: 18px;
   padding: 22px 34px;
+}
+
+.consult-order-btn:hover,
+.consult-order-btn:focus {
+  color: var(--fourth-text-color);
+  border: 2px solid var(--fourth-text-color);
+}
+
+/** ======== FOOTER ======== */
+
+.footer {
+  padding: 50px 0 35px;
+}
+
+.upper-footer {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 50px 12px 80px;
+}
+
+.logo-box {
+  padding-right: 67px;
+}
+
+.logo-box-text {
+  max-width: 326px;
+  font-size: 22px;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+  color: var(--second-text-color);
+  margin: 15px 0 10px;
+}
+
+.social-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+}
+
+.pages-box {
+  padding-right: 80px;
+}
+.pages-title {
+  font-family: 'DM Serif Display', sans-serif;
+  font-size: 25px;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+  color: var(--main-text-color);
+  margin-bottom: 22px;
+}
+.pages-list {
+}
+.pages-item {
+  font-size: 22px;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+  color: var(--second-text-color);
+  margin-bottom: 30px;
+}
+
+.pages-item:hover,
+.pages-item:focus {
+  cursor: pointer;
+  color: var(--third-text-color);
+}
+
+.explore-box {
+  padding-right: 87px;
+}
+.explore-title {
+  font-family: 'DM Serif Display', sans-serif;
+  font-size: 25px;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+  color: var(--main-text-color);
+  margin-bottom: 22px;
+}
+
+.explore-list {
+}
+.explore-item {
+  font-size: 22px;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+  color: var(--second-text-color);
+  margin-bottom: 30px;
+}
+
+.explore-item:hover,
+.explore-item:focus {
+  cursor: pointer;
+  color: var(--third-text-color);
+}
+
+.contacts {
+  max-width: 338px;
+}
+.contacts-title {
+  font-family: 'DM Serif Display', sans-serif;
+  font-size: 25px;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+  color: var(--main-text-color);
+  margin-bottom: 22px;
+}
+
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-item {
+  margin-bottom: 30px;
+}
+
+.contacts-item-link {
+  font-style: normal;
+  font-size: 22px;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+  color: var(--second-text-color);
+}
+
+.contacts-item-link:hover,
+.contacts-item-link:focus {
+  color: var(--third-text-color);
+}
+
+.lower-footer {
+  display: flex;
+  justify-content: center;
+  padding: 35px 200px;
+  border-top: 1px solid #e5e5e5;
+}
+.low-foot-text {
+  font-size: 22px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.22px;
+  color: var(--second-text-color);
+}
+.low-foot-subtext {
+  font-size: 22px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.22px;
+  color: var(--third-text-color);
+  margin: 0 14px;
 }
